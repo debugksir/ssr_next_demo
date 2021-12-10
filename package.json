@@ -3,10 +3,8 @@
   "private": true,
   "scripts": {
     "server": "node server.js",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production pm2 restart server.js",
     "build": "next build",
-    "dev": "next dev",
-    "prod": "next start",
     "lint": "next lint"
   },
   "dependencies": {

@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware')
 
 const devProxy = {
     '/api/': {
-        target: 'http://10.2.130.23:8080',
+        target: 'http://10.2.130.23:8081',
         pathRewrite: {
             '^/api': ''
         },
@@ -23,7 +23,8 @@ const handle = app.getRequestHandler()
 app.prepare()
     .then(() => {
         const server = express()
-        if (dev && devProxy) {
+        // if (dev && devProxy) { // 仅开发环境下启用代理
+        if (devProxy) {
             Object.keys(devProxy).forEach(context => {
                 server.use(createProxyMiddleware(context, devProxy[context]))
             })
