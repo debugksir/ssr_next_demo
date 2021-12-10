@@ -14,6 +14,7 @@ const devProxy = {
 }
 
 const port = process.env.PORT || 3000
+const hostanme = '0.0.0.0'
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({
     dev
@@ -34,11 +35,11 @@ app.prepare()
             handle(req, res)
         })
 
-        server.listen(port, err => {
+        server.listen(port, hostanme, err => {
             if (err) {
                 throw err
             }
-            console.log(`> Ready on http://localhost:${port}`)
+            console.log(`> Ready on http://${hostanme}:${port}`)
         })
     })
     .catch((err) => {
