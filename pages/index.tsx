@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script  from 'next/script';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -18,7 +19,8 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <Link href="/doctorIndex/doctorIndex"><a>医生首页</a></Link>
+        <Link href="/pc/testPC/testPC"><a>PC</a></Link>
+        <Link href="/mobile/testMobile/testMobile"><a>mobile</a></Link>
       </main>
 
       <footer className={styles.footer}>
@@ -32,6 +34,7 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
+        <Script src='https://at.alicdn.com/t/font_2923128_cwlug0ht0ob.js'></Script>
       </footer>
     </div>
   )
