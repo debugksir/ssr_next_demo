@@ -47,3 +47,7 @@ declare module '*.module.less' {
   export default classes
 }
 ```
+
+## todo
+
+- 一键式部署
