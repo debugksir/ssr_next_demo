@@ -1,4 +1,4 @@
-import { MobileHead } from "../../components";
+import { MobileHead } from "../../../components";
 
 const TestMobile:React.FC = () => {
 

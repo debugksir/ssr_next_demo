@@ -18,6 +18,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <h1>env is {process.env.NODE_ENV} | {process.env.customKey}</h1>
 
         <Link href="/pc/testPC/testPC"><a>PC</a></Link>
         <Link href="/mobile/testMobile/testMobile"><a>mobile</a></Link>

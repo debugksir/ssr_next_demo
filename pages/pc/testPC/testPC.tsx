@@ -5,9 +5,9 @@ import React, { useEffect, useState } from "react";
 import styles from './testPC.module.less';
 import { Button } from 'antd';
 import Script from 'next/script'
-import { PCHead } from "../../components";
+import { PCHead } from "../../../components";
 
-const testPC: React.FC = () => {
+const TestPC: React.FC = () => {
 
     const [visible, setVisible] = useState(false);
 
@@ -51,4 +51,4 @@ const testPC: React.FC = () => {
     </div>
 }
 
-export default testPC;
+export default TestPC;
