@@ -3112,7 +3112,7 @@ next-with-less@^2.0.4:
   dependencies:
     clone-deep "^4.0.1"
 
-next@^12.0.8-canary.5, next@canary@12.0.7:
+next@^12.0.8-canary.5:
   version "12.0.8-canary.5"
   resolved "https://repo.huaweicloud.com/repository/npm/next/-/next-12.0.8-canary.5.tgz#aafabcad10c57a35cbb76318429edf326c7a0c95"
   integrity sha512-FTkizEQ1Q4ioWq/8mURRxv2WlJkhFw+s+8Crv35+xoclqRTr/FIeNTvbK79S39j93LJm70jtkI5xtA3go3oTqg==
