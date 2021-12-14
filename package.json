@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "server": "node server.js",
-    "start": "NODE_ENV=production pm2 restart server.js",
+    "start": "NODE_ENV=production pm2 restart ./server.js",
     "build": "next build",
     "lint": "next lint"
   },
