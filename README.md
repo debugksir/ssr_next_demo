@@ -39,3 +39,11 @@ yarn add next@canary
 5. pages目录下的文件必须有export default默认输出
 6. 在next.config.js中添加env配置，可以在代码中读取到环境变量如process.env.NODE_ENV
 7. 云服务器设置安全组后chrome浏览器访问无效，但在其他浏览器中正常，暂未解决方案，推测原因是chrome浏览器的缓存机制造成的
+8. 如无法编译less文件，在demo02/node_modules/next/types/global.d.ts文件中添加
+
+```js
+declare module '*.module.less' {
+  const classes: { readonly [key: string]: string }
+  export default classes
+}
+```
