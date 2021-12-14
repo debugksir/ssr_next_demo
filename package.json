@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "server": "node server.js",
-    "start": "pm2 reload ecosystem.config.js --env production",
+    "start": "next build && pm2 reload ecosystem.config.js --env production",
     "build": "next build",
     "lint": "next lint"
   },
