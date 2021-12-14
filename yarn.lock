@@ -166,10 +166,10 @@
   resolved "https://registry.npmmirror.com/@napi-rs/triples/download/@napi-rs/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
   integrity sha1-dtbQw/TRYBPGHkXfyl/x5sMa5Tw=
 
-"@next/env@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/env/download/@next/env-12.0.7.tgz#316f7bd1b6b69f554d2676cfc91a16bc7e32ee79"
-  integrity sha512-TNDqBV37wd95SiNdZsSUq8gnnrTwr+aN9wqy4Zxrxw4bC/jCHNsbK94DxjkG99VL30VCRXXDBTA1/Wa2jIpF9Q==
+"@next/env@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/env/-/env-12.0.8-canary.5.tgz#dee955aefcaaec17ecb9651546d2119305841ce6"
+  integrity sha512-iVOP1J8ElfWqIdwJVtRZljx7dWQmZFN9Ptcvd3yjBE5g25FofaT/VKFQDBHJL39IWYnqg2zZUgd645PZNmxwrg==
 
 "@next/eslint-plugin-next@12.0.7":
   version "12.0.7"
@@ -178,15 +178,15 @@
   dependencies:
     glob "7.1.7"
 
-"@next/polyfill-module@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/polyfill-module/download/@next/polyfill-module-12.0.7.tgz#140e698557113cd3a3c0833f15ca8af1b608f2dc"
-  integrity sha512-sA8LAMMlmcspIZw/jeQuJTyA3uGrqOhTBaQE+G9u6DPohqrBFRkaz7RzzJeqXkUXw600occsIBknSjyVd1R67A==
+"@next/polyfill-module@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/polyfill-module/-/polyfill-module-12.0.8-canary.5.tgz#73c35789e71fa05f61546d5112750f6fbc9bf55e"
+  integrity sha512-QBY8D9px8M9JACkguqs1dDM6gpvzcG5Zu0DloWpR07/1DuTdyaO2OozjNNRm1o1775PlL533de9FbmpW8FwVdA==
 
-"@next/react-dev-overlay@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/react-dev-overlay/download/@next/react-dev-overlay-12.0.7.tgz#ae8f9bd14b1786e52330b729ff63061735d21c77"
-  integrity sha512-dSQLgpZ5uzyittFtIHlJCLAbc0LlMFbRBSYuGsIlrtGyjYN+WMcnz8lK48VLxNPFGuB/hEzkWV4TW5Zu75+Fzg==
+"@next/react-dev-overlay@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/react-dev-overlay/-/react-dev-overlay-12.0.8-canary.5.tgz#b1a87a87ceab10005b0e99f90d22991bc9a41a6c"
+  integrity sha512-SDJCJ1FvGpwApGRrZYThn3vmCfI4l8o8nQOmc3vlaG1O+qtVas4tOmp/9eQGSRFYNVy7xH/xJcg5TRz1wavO1w==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -200,65 +200,65 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.1"
 
-"@next/react-refresh-utils@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/react-refresh-utils/download/@next/react-refresh-utils-12.0.7.tgz#921c403798e188b4f1d9e609283c0e8d3e532f89"
-  integrity sha512-Pglj1t+7RxH0txEqVcD8ZxrJgqLDmKvQDqxKq3ZPRWxMv7LTl7FVT2Pnb36QFeBwCvMVl67jxsADKsW0idz8sA==
+"@next/react-refresh-utils@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/react-refresh-utils/-/react-refresh-utils-12.0.8-canary.5.tgz#7242d478965425f25a65fa3bbbf737d260f9fb81"
+  integrity sha512-DN89T+r6G+haFNi5P2v0Fiqgttpj2Y2czyKdZjigfKv1TKOzVCmOCWOGlIEJ9E8PU39KNV0Rp0zJqHoWMcsmDQ==
 
-"@next/swc-android-arm64@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-android-arm64/download/@next/swc-android-arm64-12.0.7.tgz#9b0a9e4bc646a045eef725764112096f0a6ea204"
-  integrity sha512-yViT7EEc7JqxncRT+ZTeTsrAYXLlcefo0Y0eAfYmmalGD2605L4FWAVrJi4WnrSLji7l+veczw1WBmNeHICKKA==
+"@next/swc-android-arm64@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-android-arm64/-/swc-android-arm64-12.0.8-canary.5.tgz#f0415f23cc86c7f83f6cc07a5ff4343cbc90aa57"
+  integrity sha512-AtA+opGjvKI3bdiNPfE9LxvKrdZFxG9m1wGJm124quhf6R1vRP4iNCFCI44lnAocnYg3Pprnj9ZF/jrI7t2a3w==
 
-"@next/swc-darwin-arm64@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-darwin-arm64/download/@next/swc-darwin-arm64-12.0.7.tgz#2fd506dba91e4a35036b9fc7930a4d6b8895f16a"
-  integrity sha512-vhAyW2rDEUcQesRVaj0z1hSoz7QhDzzGd0V1/5/5i9YJOfOtyrPsVJ82tlf7BfXl6/Ep+eKNfWVIb5/Jv89EKg==
+"@next/swc-darwin-arm64@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.0.8-canary.5.tgz#ceb7e7a84602e84a6ad2bcfb28526b44543fc8c5"
+  integrity sha512-HRNBTqVnCE/ztmuG0CcpVE9Kqafm6LpQ0tZ+F9O/RWSbwE8mk0vNIiJvSOpz3da6QEVMtUO4O57P7hfQMUR7Bw==
 
-"@next/swc-darwin-x64@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-darwin-x64/download/@next/swc-darwin-x64-12.0.7.tgz#b3016503caa5ed5cc6a20051517d5b2a79cfdc58"
-  integrity sha512-km+6Rx6TvbraoQ1f0MXa69ol/x0RxzucFGa2OgZaYJERas0spy0iwW8hpASsGcf597D8VRW1x+R2C7ZdjVBSTw==
+"@next/swc-darwin-x64@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-darwin-x64/-/swc-darwin-x64-12.0.8-canary.5.tgz#e6dfd528710419bc1f11d4674f1f557a695e79cb"
+  integrity sha512-XBQC/stjJogs1ZY46o9RHULK0RDIJPPQennbecLevoEVr3C8wuSe4/Ewb6YGXg06g/8Cntqny1ts4Us0MI3xOQ==
 
-"@next/swc-linux-arm-gnueabihf@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-linux-arm-gnueabihf/download/@next/swc-linux-arm-gnueabihf-12.0.7.tgz#8e91ecddc2d6d26946949a67d481110db3063d09"
-  integrity sha512-d0zWr877YqZ2cf/DQy6obouaR39r0FPebcXj2nws9AC99m68CO2xVpWv9jT7mFvpY+T40HJisLH80jSZ2iQ9sA==
+"@next/swc-linux-arm-gnueabihf@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-12.0.8-canary.5.tgz#7e21f62b4b7d59e5d46a89156d007d3323644351"
+  integrity sha512-yiPqtxIa/IF45CIxWPWX2tuIbHHkY4X+rj/KgIzpfEtGbKtmM9Nyuj3g31byYFxGyqu8cLtPBycdtUj1ascPPw==
 
-"@next/swc-linux-arm64-gnu@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/download/@next/swc-linux-arm64-gnu-12.0.7.tgz#1eefcf7b063610315b74e5c7dc24c3437370e49d"
-  integrity sha512-fdobh5u6gG13Gd5LkHhJ+W8tF9hbaFolRW99FhzArMe5/nMKlLdBymOxvitE3K4gSFQxbXJA6TbU0Vv0e59Kww==
+"@next/swc-linux-arm64-gnu@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-12.0.8-canary.5.tgz#0a0706860c050dfc31a277ec4fdc3db66ffda4eb"
+  integrity sha512-ruwSH/XM4o5b66ZcczASb6sqSApVzt4JAfdeqJK79QXNpznI58hx9/RQRD3ZgVQsX9rKD0PzCk14KflfOR1BWw==
 
-"@next/swc-linux-arm64-musl@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-linux-arm64-musl/download/@next/swc-linux-arm64-musl-12.0.7.tgz#e9e764519dfb75e43355c442181346cd6e72459b"
-  integrity sha512-vx0c5Q3oIScFNT/4jI9rCe0yPzKuCqWOkiO/OOV0ixSI2gLhbrwDIcdkm79fKVn3i8JOJunxE4zDoFeR/g8xqQ==
+"@next/swc-linux-arm64-musl@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-12.0.8-canary.5.tgz#e8f729bb3fed793668f38ea40c35da0629d504e1"
+  integrity sha512-hFdZuxDEl4pojQOwY7COVaYYTed+GzqjYEg4UrR6W7ctayhVRQy8KnC4/wDE5GKma7xz45XY9BfSOCTvMigbHA==
 
-"@next/swc-linux-x64-gnu@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-linux-x64-gnu/download/@next/swc-linux-x64-gnu-12.0.7.tgz#fef02e14ed8f9c114479dabba1475ae2d3bb040d"
-  integrity sha512-9ITyp6s6uGVKNx3C/GP7GrYycbcwTADG7TdIXzXUxOOZORrdB1GNg3w/EL3Am4VMPPEpO6v1RfKo2IKZpVKfTA==
+"@next/swc-linux-x64-gnu@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.0.8-canary.5.tgz#97b9d67d304ec0917a8e3d4c40a0ab44ce6bc900"
+  integrity sha512-4R/e0Oo4c0BUtJV1iitfKb+28F+2rQ15b4xV8GyEN+wyN13QN9PL8/FYC1GEl2DCYBytva2FNn9RKcxl66gQlw==
 
-"@next/swc-linux-x64-musl@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-linux-x64-musl/download/@next/swc-linux-x64-musl-12.0.7.tgz#07dc334b1924d9f5a8c4a891b91562af19ff5de4"
-  integrity sha512-C+k+cygbIZXYfc+Hx2fNPUBEg7jzio+mniP5ywZevuTXW14zodIfQ3ZMoMJR8EpOVvYpjWFk2uAjiwqgx8vo/g==
+"@next/swc-linux-x64-musl@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.0.8-canary.5.tgz#3621b91d808a2d1fabaf37f696a1b2111a92a4fa"
+  integrity sha512-T1Z7z8IcGBSj9NQKySlZQDiSufuRwDuhiNXNQmoSbcMhDYVMpZUN5zWow6BIEc7BNCad0pg6fiOrRcaEIpHPqw==
 
-"@next/swc-win32-arm64-msvc@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/download/@next/swc-win32-arm64-msvc-12.0.7.tgz#6c559d87ce142693173039a18b1c1d65519762dd"
-  integrity sha512-7jTRjOKkDVnb5s7VoHT7eX+eyT/5BQJ/ljP2G56riAgKGqPL63/V7FXemLhhLT67D+OjoP8DRA2E2ne6IPHk4w==
+"@next/swc-win32-arm64-msvc@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-12.0.8-canary.5.tgz#834a088db22382fb7eb3ad16b0462b367e46714e"
+  integrity sha512-YVUImK2c6kyeQU24GO3b/YWJpucVD0iW7KLky+P40Hq/MEHTXxJSYAHkGABKuTWDr6rGRfjZ42vc9Ojsrkqr0g==
 
-"@next/swc-win32-ia32-msvc@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-win32-ia32-msvc/download/@next/swc-win32-ia32-msvc-12.0.7.tgz#16b23f2301b16877b3623f0e8364e8177e2ef7db"
-  integrity sha512-2u5pGDsk7H6gGxob2ATIojzlwKzgYsrijo7RRpXOiPePVqwPWg6/pmhaJzLdpfjaBgRg1NFmwSp/7Ump9X8Ijg==
+"@next/swc-win32-ia32-msvc@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-12.0.8-canary.5.tgz#021febd131272f2aeb5ce094621e35f8f2cc7440"
+  integrity sha512-Ue1+n5V+YNFiK2qSeGz2X99olZ3vVAhfymstHusmNi0txzpw2Jgwilqu3lPLxDL+pvUEI8CgjqeF0szhBjk2Ww==
 
-"@next/swc-win32-x64-msvc@12.0.7":
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/download/@next/swc-win32-x64-msvc-12.0.7.tgz#8d75d3b6a872ab97ab73e3b4173d56dbb2991917"
-  integrity sha512-frEWtbf+q8Oz4e2UqKJrNssk6DZ6/NLCQXn5/ORWE9dPAfe9XS6aK5FRZ6DuEPmmKd5gOoRkKJFFz5nYd+TeyQ==
+"@next/swc-win32-x64-msvc@12.0.8-canary.5":
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.0.8-canary.5.tgz#8ee3033ef693c97224021454f7a1304a9c89b236"
+  integrity sha512-Oc7Srdf/74870jzVjxpsPrC2JXR66KTlxTEWMzzAt9o6EGxQFBL2KcW3qq99rU2+wglzILcXFfANlRabYgWXuA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1001,16 +1001,16 @@ browserify-zlib@0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@4.16.6:
-  version "4.16.6"
-  resolved "https://registry.npmmirror.com/browserslist/download/browserslist-4.16.6.tgz?cache=0&sync_timestamp=1636994406288&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbrowserslist%2Fdownload%2Fbrowserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
-  integrity sha1-15ASd6WojlVO0wWxg+ybDAj2b6I=
+browserslist@4.18.1:
+  version "4.18.1"
+  resolved "https://repo.huaweicloud.com/repository/npm/browserslist/-/browserslist-4.18.1.tgz#60d3920f25b6860eb917c6c7b185576f4d8b017f"
+  integrity sha512-8ScCzdpPwR2wQh8IT82CA2VgDwjHyqMovPBZSNH54+tm4Jk2pCuv90gmAdH6J84OCRWi0b4gMe6O6XPXuJnjgQ==
   dependencies:
-    caniuse-lite "^1.0.30001219"
-    colorette "^1.2.2"
-    electron-to-chromium "^1.3.723"
+    caniuse-lite "^1.0.30001280"
+    electron-to-chromium "^1.3.896"
     escalade "^3.1.1"
-    node-releases "^1.1.71"
+    node-releases "^2.0.1"
+    picocolors "^1.0.0"
 
 buffer-from@^1.0.0:
   version "1.1.2"
@@ -1058,10 +1058,15 @@ callsites@^3.0.0:
   resolved "https://registry.nlark.com/callsites/download/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M=
 
-caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228:
+caniuse-lite@^1.0.30001202:
   version "1.0.30001285"
   resolved "https://registry.npmmirror.com/caniuse-lite/download/caniuse-lite-1.0.30001285.tgz#fe1e52229187e11d6670590790d669b9e03315b7"
   integrity sha512-KAOkuUtcQ901MtmvxfKD+ODHH9YVDYnBt+TGYSz2KIfnq22CiArbUxXPN9067gNbgMlnNYRSwho8OPXZPALB9Q==
+
+caniuse-lite@^1.0.30001280, caniuse-lite@^1.0.30001283:
+  version "1.0.30001286"
+  resolved "https://repo.huaweicloud.com/repository/npm/caniuse-lite/-/caniuse-lite-1.0.30001286.tgz#3e9debad420419618cfdf52dc9b6572b28a8fff6"
+  integrity sha512-zaEMRH6xg8ESMi2eQ3R4eZ5qw/hJiVsO/HlLwniIwErij0JDr9P+8V4dtx1l+kLq6j3yy8l8W4fst1lBnat5wQ==
 
 chalk@2.4.2, chalk@^2.0.0:
   version "2.4.2"
@@ -1504,10 +1509,10 @@ ee-first@1.1.1:
   resolved "https://repo.huaweicloud.com/repository/npm/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.723:
-  version "1.4.12"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.4.12.tgz#5f73d1278c6205fc41d7a0ebd75563046b77c5d8"
-  integrity sha512-zjfhG9Us/hIy8AlQ5OzfbR/C4aBv1Dg/ak4GX35CELYlJ4tDAtoEcQivXvyBdqdNQ+R6PhlgQqV8UNPJmhkJog==
+electron-to-chromium@^1.3.896:
+  version "1.4.17"
+  resolved "https://repo.huaweicloud.com/repository/npm/electron-to-chromium/-/electron-to-chromium-1.4.17.tgz#16ec40f61005582d5d41fac08400a254dccfb85f"
+  integrity sha512-zhk1MravPtq/KBhmGB7TLBILmXTgRG9TFSI3qS3DbgyfHzIl72iiTE37r/BHIbPCJJlWIo5rySyxiH4vWhu2ZA==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -2133,6 +2138,11 @@ get-orientation@1.1.2:
   integrity sha1-IFB5KJUYFPipHe0KDmeynfq5iUc=
   dependencies:
     stream-parser "^0.3.1"
+
+get-stream@6.0.0:
+  version "6.0.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/get-stream/-/get-stream-6.0.0.tgz#3e0012cb6827319da2706e601a1583e8629a6718"
+  integrity sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
 
 get-symbol-description@^1.0.0:
   version "1.0.0"
@@ -3102,24 +3112,24 @@ next-with-less@^2.0.4:
   dependencies:
     clone-deep "^4.0.1"
 
-next@12.0.7:
-  version "12.0.7"
-  resolved "https://registry.npmmirror.com/next/download/next-12.0.7.tgz#33ebf229b81b06e583ab5ae7613cffe1ca2103fc"
-  integrity sha512-sKO8GJJYfuk9c+q+zHSNumvff+wP7ufmOlwT6BuzwiYfFJ61VTTkfTcDLSJ+95ErQJiC54uS4Yg5JEE8H6jXRA==
+next@^12.0.8-canary.5, next@canary@12.0.7:
+  version "12.0.8-canary.5"
+  resolved "https://repo.huaweicloud.com/repository/npm/next/-/next-12.0.8-canary.5.tgz#aafabcad10c57a35cbb76318429edf326c7a0c95"
+  integrity sha512-FTkizEQ1Q4ioWq/8mURRxv2WlJkhFw+s+8Crv35+xoclqRTr/FIeNTvbK79S39j93LJm70jtkI5xtA3go3oTqg==
   dependencies:
     "@babel/runtime" "7.15.4"
     "@hapi/accept" "5.0.2"
     "@napi-rs/triples" "1.0.3"
-    "@next/env" "12.0.7"
-    "@next/polyfill-module" "12.0.7"
-    "@next/react-dev-overlay" "12.0.7"
-    "@next/react-refresh-utils" "12.0.7"
+    "@next/env" "12.0.8-canary.5"
+    "@next/polyfill-module" "12.0.8-canary.5"
+    "@next/react-dev-overlay" "12.0.8-canary.5"
+    "@next/react-refresh-utils" "12.0.8-canary.5"
     acorn "8.5.0"
     assert "2.0.0"
     browserify-zlib "0.2.0"
-    browserslist "4.16.6"
+    browserslist "4.18.1"
     buffer "5.6.0"
-    caniuse-lite "^1.0.30001228"
+    caniuse-lite "^1.0.30001283"
     chalk "2.4.2"
     chokidar "3.5.1"
     constants-browserify "1.0.0"
@@ -3131,6 +3141,7 @@ next@12.0.7:
     events "3.3.0"
     find-cache-dir "3.3.1"
     get-orientation "1.1.2"
+    get-stream "6.0.0"
     https-browserify "1.0.0"
     image-size "1.0.0"
     jest-worker "27.0.0-next.5"
@@ -3157,17 +3168,17 @@ next@12.0.7:
     vm-browserify "1.1.2"
     watchpack "2.3.0"
   optionalDependencies:
-    "@next/swc-android-arm64" "12.0.7"
-    "@next/swc-darwin-arm64" "12.0.7"
-    "@next/swc-darwin-x64" "12.0.7"
-    "@next/swc-linux-arm-gnueabihf" "12.0.7"
-    "@next/swc-linux-arm64-gnu" "12.0.7"
-    "@next/swc-linux-arm64-musl" "12.0.7"
-    "@next/swc-linux-x64-gnu" "12.0.7"
-    "@next/swc-linux-x64-musl" "12.0.7"
-    "@next/swc-win32-arm64-msvc" "12.0.7"
-    "@next/swc-win32-ia32-msvc" "12.0.7"
-    "@next/swc-win32-x64-msvc" "12.0.7"
+    "@next/swc-android-arm64" "12.0.8-canary.5"
+    "@next/swc-darwin-arm64" "12.0.8-canary.5"
+    "@next/swc-darwin-x64" "12.0.8-canary.5"
+    "@next/swc-linux-arm-gnueabihf" "12.0.8-canary.5"
+    "@next/swc-linux-arm64-gnu" "12.0.8-canary.5"
+    "@next/swc-linux-arm64-musl" "12.0.8-canary.5"
+    "@next/swc-linux-x64-gnu" "12.0.8-canary.5"
+    "@next/swc-linux-x64-musl" "12.0.8-canary.5"
+    "@next/swc-win32-arm64-msvc" "12.0.8-canary.5"
+    "@next/swc-win32-ia32-msvc" "12.0.8-canary.5"
+    "@next/swc-win32-x64-msvc" "12.0.8-canary.5"
 
 node-fetch@2.6.1:
   version "2.6.1"
@@ -3181,10 +3192,10 @@ node-html-parser@1.4.9:
   dependencies:
     he "1.2.0"
 
-node-releases@^1.1.71:
-  version "1.1.77"
-  resolved "https://registry.npmmirror.com/node-releases/download/node-releases-1.1.77.tgz#50b0cfede855dd374e7585bf228ff34e57c1c32e"
-  integrity sha1-ULDP7ehV3TdOdYW/Io/zTlfBwy4=
+node-releases@^2.0.1:
+  version "2.0.1"
+  resolved "https://repo.huaweicloud.com/repository/npm/node-releases/-/node-releases-2.0.1.tgz#3d1d395f204f1f2f29a54358b9fb678765ad2fc5"
+  integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -3467,6 +3478,11 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.huaweicloud.com/repository/npm/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
