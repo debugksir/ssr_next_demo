@@ -35,17 +35,13 @@ app.prepare()
     .then(() => {
         const server = express()
         if (dev) {
-            if (devProxy) {
-                Object.keys(devProxy).forEach(context => {
-                    server.use(createProxyMiddleware(context, devProxy[context]))
-                })
-            }
+            !!devProxy && Object.keys(devProxy).forEach(context => {
+                server.use(createProxyMiddleware(context, devProxy[context]))
+            })
         } else {
-            if (prodProxy) {
-                Object.keys(devProxy).forEach(context => {
-                    server.use(createProxyMiddleware(context, prodProxy[context]))
-                })
-            }
+            !!prodProxy && Object.keys(devProxy).forEach(context => {
+                server.use(createProxyMiddleware(context, prodProxy[context]))
+            })
         }
 
         server.all('*', (req, res) => {

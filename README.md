@@ -8,6 +8,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 #### 命令篇
 
+- pm2 -h # 查看帮助文档
+- pm2 list # 列举pm2启动的服务列表
+- pm2 start xxx # 启动服务
+- pm2 restart xxx # 重启服务
+- pm2 stop id # 停止服务
+- pm2 delete|del id # 停止并删除服务
+- pm2 kill # 杀掉所有进程
 - 查看pm2 日志： pm2 logs
 - 查看服务仪表盘：pm2 monit 或者 pm2 monitor 或者 pm2 plus
 - pm2生成配置文件： pm2 ecosystem
@@ -49,6 +56,8 @@ declare module '*.module.less' {
 }
 ```
 
-## todo
+## 部署
 
-- 一键式部署
+一键式部署
+yarn start # 服务器测一键部署
+yarn deploy # 开发者测一键部署

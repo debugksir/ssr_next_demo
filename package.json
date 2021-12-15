@@ -4,6 +4,7 @@
   "scripts": {
     "server": "node server.js",
     "start": "yarn && next build && pm2 reload ecosystem.config.js --env production",
+    "deploy": "pm2 deploy ecosystem.config.js production",
     "build": "next build",
     "lint": "next lint"
   },
