@@ -1,5 +1,6 @@
 module.exports = {
   apps: [{
+    name: "hello",
     script: 'server.js',
     watch: false,
     env: {
