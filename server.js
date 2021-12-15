@@ -13,6 +13,16 @@ const devProxy = {
     }
 }
 
+const prodProxy = {
+    '/api/': {
+        target: 'http://10.2.130.23:8081',
+        pathRewrite: {
+            '^/api': ''
+        },
+        changeOrigin: true
+    }
+}
+
 const port = process.env.PORT || 3000
 const hostanme = '0.0.0.0'
 const dev = process.env.NODE_ENV !== 'production'
@@ -24,11 +34,18 @@ const handle = app.getRequestHandler()
 app.prepare()
     .then(() => {
         const server = express()
-        // if (dev && devProxy) { // 仅开发环境下启用代理
-        if (devProxy) {
-            Object.keys(devProxy).forEach(context => {
-                server.use(createProxyMiddleware(context, devProxy[context]))
-            })
+        if (dev) {
+            if (devProxy) {
+                Object.keys(devProxy).forEach(context => {
+                    server.use(createProxyMiddleware(context, devProxy[context]))
+                })
+            }
+        } else {
+            if (prodProxy) {
+                Object.keys(devProxy).forEach(context => {
+                    server.use(createProxyMiddleware(context, prodProxy[context]))
+                })
+            }
         }
 
         server.all('*', (req, res) => {

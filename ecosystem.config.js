@@ -25,7 +25,7 @@ module.exports = {
       repo: 'https://gitee.com/debugksir/ssr_next_demo.git',
       path: '/data/www/ssr_next',
       'pre-deploy-local': '',
-      'post-deploy': 'yarn && yarn build && pm2 reload ecosystem.config.js --env production',
+      'post-deploy': 'yarn start',
       'pre-setup': ''
     }
   }

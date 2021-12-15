@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 #### 命令篇
 
 - 查看pm2 日志： pm2 logs
+- 查看服务仪表盘：pm2 monit 或者 pm2 monitor 或者 pm2 plus
 - pm2生成配置文件： pm2 ecosystem
 - pm2启动命令： pm2 reload ecosystem.config.js --env development
 - pm2启动命令： pm2 reload ecosystem.config.js --env production (切记生产环境启动之前需要build)
