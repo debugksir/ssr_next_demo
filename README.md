@@ -12,9 +12,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - pm2生成配置文件： pm2 ecosystem
 - pm2启动命令： pm2 reload ecosystem.config.js --env development
 - pm2启动命令： pm2 reload ecosystem.config.js --env production (切记生产环境启动之前需要build)
+- package.json 中使用组合命令如： "start": "next build && pm2 reload ecosystem.config.js --env production", 相当于先执行next build 然后执行pm2 reload ecosystem.config.js --env production
 - centos 下nginx默认配置文件目录：/usr/local/nginx/conf/nginx.conf
 - service nginx reload == systemctl reload nginx.service
-- package.json 中使用组合命令如： "start": "next build && pm2 reload ecosystem.config.js --env production", 相当于先执行next build 然后执行pm2 reload ecosystem.config.js --env production
 
 #### 踩坑篇
 
@@ -38,8 +38,8 @@ yarn add next@canary
 4. 组件名必须大写
 5. pages目录下的文件必须有export default默认输出
 6. 在next.config.js中添加env配置，可以在代码中读取到环境变量如process.env.NODE_ENV
-7. 云服务器设置安全组后chrome浏览器访问无效，但在其他浏览器中正常，暂未解决方案，推测原因是chrome浏览器的缓存机制造成的
-8. 如无法编译less文件，在demo02/node_modules/next/types/global.d.ts文件中添加
+7. 云服务器设置安全组后chrome浏览器访问无效，但在其他浏览器中正常，暂未找到解决方案，推测原因可能是chrome浏览器的缓存机制造成的
+8. 如无法编译less文件，在node_modules/next/types/global.d.ts文件中添加
 
 ```js
 declare module '*.module.less' {
